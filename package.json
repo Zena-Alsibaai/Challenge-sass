@@ -1,0 +1,22 @@
+{
+  "name": "challenge-sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass --watch src/scss -o src/css --source-map true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zena-Alsibaai/Challenge-sass.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zena-Alsibaai/Challenge-sass/issues"
+  },
+  "homepage": "https://github.com/Zena-Alsibaai/Challenge-sass#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
