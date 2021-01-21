@@ -18,3 +18,10 @@ $section-margin:16px;
 $reuse-padding: 16px;
 $code-padding: 1em 1.5em;
 $padding-double: $reuse-padding*2; 
+
+
+@mixin box-shadow($value){
+    
+    box-shadow: 10px 10px 15px -4px $value;
+    
+}

@@ -28,14 +28,10 @@ article{
     flex-wrap: wrap;
 
     section{
-        
         flex-grow: 1;
         flex-basis: 45%;  
         border: 1px solid $section-border-color;
-        -webkit-box-shadow: 10px 10px 15px -4px $shadow;
-        -moz-box-shadow: 10px 10px 15px -4px $shadow;
-        box-shadow: 10px 10px 15px -4px $shadow;
-        box-shadow: $shadow;
+        
         padding: $reuse-padding;
         margin: $section-margin;
         clear: both;
@@ -44,8 +40,8 @@ article{
 
         
 
-        
     }
+
     #selling-points{
         flex-grow: 2;
         flex-basis: 100%; 
@@ -125,10 +121,6 @@ footer{
         border: 1px solid red;
     }
 }
-@mixin box-shadow{
-    -webkit-box-shadow: 10px 10px 15px -4px #6b717f;
-    -moz-box-shadow: 10px 10px 15px -4px #6b717f;
-    box-shadow: 10px 10px 15px -4px #6b717f;
-}
+
  
 
